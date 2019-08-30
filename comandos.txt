@@ -1,0 +1,28 @@
+#Comandos e dicas do Git
+
+para iniciar a insercao do editor de textos clicar na tecla <i>
+
+para inicializar: git init
+
+abrir pasta git: cd .git/
+
+verificar situacao: git status
+
+incluir arquivos: git add <nome.extensao>
+
+aplicar um commit: git commit -m "mensagem do commit"
+
+verificar historico: 
+git log
+git log --decorate
+git log --author="nome"
+git shortlog
+git shortlog -sn //apenas quantidade
+git log --graph
+git show <numero da hash do commint>
+
+
+
+para sair do editor de textos
+esc :wq
+
